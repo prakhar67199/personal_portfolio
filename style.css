@@ -353,6 +353,7 @@ img
     color: #fff;
     padding: 1rem;
     border-radius: 0.5rem;
+    border: none;
     font-weight: var(--font-medium);
     text-transform: capitalize;
     gap: 0.5rem;
@@ -365,9 +366,13 @@ img
 }
 .button--flex
 {
-    /* display: inline-flex;
+    display: inline-flex;
     align-items: center;
-    text-align: center; */
+    text-align: center;
+}
+.button--shadow
+{
+    font-size: 1.25rem;
 }
 .button--small
 {
@@ -1062,6 +1067,7 @@ body.dark-theme
     {
         width: 200px;
     }
+    
     /* .testimonial__data,
     .testimonial__header
     {
